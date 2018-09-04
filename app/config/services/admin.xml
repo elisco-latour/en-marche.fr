@@ -611,6 +611,19 @@
 
         <!--
         ######################################################
+        # Person
+        ######################################################
+        -->
+        <service id="app.admin.mooc_mooc" class="AppBundle\Admin\ExecutiveOfficePersonAdmin">
+            <tag name="sonata.admin" manager-type="orm" label="Bureau exécutif" group="Biographies" />
+
+            <argument />
+            <argument>AppBundle\Entity\Person\ExecutiveOfficePerson</argument>
+            <argument />
+        </service>
+
+        <!--
+        ######################################################
         # OAuth
         ######################################################
          -->

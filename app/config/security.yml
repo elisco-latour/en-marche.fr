@@ -201,6 +201,9 @@ security:
         ROLE_ADMIN_EMAIL_SUBSCRIPTION_TYPES:
             - ROLE_APP_ADMIN_SUBSCRIPTION_TYPE_ALL
 
+        ROLE_ADMIN_PERSON:
+            - ROLE_APP_ADMIN_EXECUTIVE_OFFICE_PERSON_ALL
+
         ROLE_SUPER_ADMIN:
             - ROLE_ADMIN_DASHBOARD
             - ROLE_ADMIN_MEDIAS
@@ -239,6 +242,7 @@ security:
             - ROLE_ADMIN_CLIENTS
             - ROLE_ADMIN_ORGANIGRAMM
             - ROLE_ADMIN_EMAIL_SUBSCRIPTION_TYPES
+            - ROLE_ADMIN_PERSON
 
     access_decision_manager:
         strategy: unanimous

@@ -58,6 +58,11 @@ class LoadSubscriptionTypeData extends Fixture
                 'code' => SubscriptionTypeEnum::CITIZEN_PROJECT_CREATION_EMAIL,
                 'externalId' => null,
             ],
+            [
+                'label' => 'Recevoir les e-mails de votre député(e)',
+                'code' => SubscriptionTypeEnum::DEPUTY_EMAIL,
+                'externalId' => null,
+            ],
         ];
     }
 }
